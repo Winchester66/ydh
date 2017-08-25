@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ydh.gtbrain.yourdiethelper.Fragments.Main_diet">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@drawable/background2">
+
+        <Spinner
+            android:id="@+id/s_chooseDiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:gravity="top"></Spinner>
+
+        <Button
+            android:id="@+id/b_calculateDiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:layout_weight="0.04"
+            android:text="Calculate"/>
+    </LinearLayout>
+
+</FrameLayout>
